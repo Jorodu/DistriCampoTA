@@ -59,5 +59,7 @@
 				</tr>
 			</c:forEach>
 		</table>
+                
+                <a href="/">Ir a Home</a>
 	</body>
 </html>
