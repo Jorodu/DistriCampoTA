@@ -89,12 +89,13 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- HSQL Dependency -->
-		<dependency>
-			<groupId>hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<version>${hsqldb.version}</version>
-		</dependency>
+		<!-- MySQL Dependency -->
+                <dependency>
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>5.1.32</version>
+                </dependency>
+
 	</dependencies>
 
 	<build>
